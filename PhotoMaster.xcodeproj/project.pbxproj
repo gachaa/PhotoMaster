@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59490BEA1EA8C06D00859A91 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 59490BE91EA8C06D00859A91 /* fin.png */; };
 		599465B41EA6241C00327226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599465B31EA6241C00327226 /* AppDelegate.swift */; };
 		599465B61EA6241C00327226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599465B51EA6241C00327226 /* ViewController.swift */; };
 		599465B91EA6241C00327226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599465B71EA6241C00327226 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59490BE91EA8C06D00859A91 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
 		599465B01EA6241C00327226 /* PhotoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		599465B31EA6241C00327226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		599465B51EA6241C00327226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		599465B21EA6241C00327226 /* PhotoMaster */ = {
 			isa = PBXGroup;
 			children = (
+				59490BE91EA8C06D00859A91 /* fin.png */,
 				599465B31EA6241C00327226 /* AppDelegate.swift */,
 				599465B51EA6241C00327226 /* ViewController.swift */,
 				599465B71EA6241C00327226 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					599465AF1EA6241C00327226 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 72UU55A8N3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +130,7 @@
 				599465BE1EA6241C00327226 /* LaunchScreen.storyboard in Resources */,
 				599465BB1EA6241C00327226 /* Assets.xcassets in Resources */,
 				599465B91EA6241C00327226 /* Main.storyboard in Resources */,
+				59490BEA1EA8C06D00859A91 /* fin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72UU55A8N3;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.PhotoMaster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72UU55A8N3;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.PhotoMaster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +306,7 @@
 				599465C41EA6241C00327226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
